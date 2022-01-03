@@ -1,0 +1,11 @@
+*
+
+!/index.js
+!/react.js
+!/lib/**/*
+
+!/package.json
+
+!/CHANGELOG.md
+!/LICENSE
+!/README.md

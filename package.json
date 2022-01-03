@@ -1,0 +1,81 @@
+{
+  "name": "@storis/eslint-config",
+  "version": "0.0.1",
+  "description": "STORIS eslint configurations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext js,ts --cache && echo \"eslint: no lint errors\"",
+    "lint:fix": "eslint . --ext js,ts --fix --cache && echo \"eslint: no lint errors\"",
+    "lint:nocache": "eslint . --ext js,ts && echo \"eslint: no lint errors\"",
+    "lint:clear": "rimraf ./.eslintcache",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/storis/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "STORIS",
+  "license": "MIT",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.9.0",
+    "@typescript-eslint/parser": "5.9.0",
+    "eslint": "8.6.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "16.1.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-babel-module": "5.3.1",
+    "eslint-import-resolver-webpack": "0.13.2",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jest": "25.3.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "jest": "27.4.5",
+    "prettier": "2.5.1",
+    "typescript": "4.5.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-babel-module": "^5.3.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-import": "^2.25.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.4.0",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-import-resolver-babel-module": {
+      "optional": true
+    },
+    "eslint-import-resolver-webpack": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
+  }
+}
