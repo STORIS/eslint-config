@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['airbnb', 'airbnb-typescript', './lib/shared'],
+	extends: ['airbnb', 'airbnb-typescript', 'plugin:jsx-a11y/recommended', './lib/shared'],
 
 	env: { browser: true },
 
@@ -47,10 +47,10 @@ module.exports = {
 		'react/jsx-indent-props': ['error', 'tab'],
 
 		// permit spreading of props
-		'react/jsx-props-no-spreading': ['off'],
+		'react/jsx-props-no-spreading': 'off',
 
 		// typescript is better at prop-types than `prop-types`
-		'react/prop-types': ['off'],
+		'react/prop-types': 'off',
 
 		// check effect dependencies
 		'react-hooks/exhaustive-deps': 'warn',
