@@ -3,7 +3,7 @@
 This package contains the standard eslint configurations for TypeScript packages used by [STORIS](https://www.storis.com).  It extends and relies on a number of other rulesets and packages including [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb), [@typescript/eslint](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin), [prettier](https://www.npmjs.com/package/eslint-plugin-prettier), and others.  It then refines those rulesets to match the STORIS TypeScript style guide.
 
 ## Installation
-`@storis/eslint-config` is available as an [npm package](https://wwwnpmjs.org/package/@storis/eslint-config).
+`@storis/eslint-config` is available as an [npm package](https://www.npmjs.org/package/@storis/eslint-config).
 
 ```sh
 npm install @storis/eslint-config
