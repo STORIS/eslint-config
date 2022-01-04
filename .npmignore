@@ -1,6 +1,7 @@
 *
 
 !/index.js
+!/node.js
 !/react.js
 !/lib/**/*
 
