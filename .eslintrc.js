@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['./index.js'],
+	extends: ['./node.js'],
 	parserOptions: {
 		tsConfigRootDir: __dirname,
 		project: ['./tsconfig.json'],
