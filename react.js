@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['airbnb', 'airbnb-typescript', 'jsx-a11y/recommended', './lib/shared'],
+	extends: ['airbnb', 'airbnb-typescript', 'plugin:jsx-a11y/recommended', './lib/shared'],
 
 	env: { browser: true },
 
