@@ -52,6 +52,10 @@ module.exports = {
 		// typescript is better at prop-types than `prop-types`
 		'react/prop-types': 'off',
 
+		// disable react-in-jsx-scope (must use @babel/preset-react option { runtime: 'automatic' })
+		// see: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html and https://babeljs.io/docs/en/babel-preset-react/#runtime
+		'react/react-in-jsx-scope': 'off',
+
 		// check effect dependencies
 		'react-hooks/exhaustive-deps': 'warn',
 
