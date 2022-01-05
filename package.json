@@ -1,7 +1,7 @@
 {
   "name": "@storis/eslint-config",
   "version": "0.0.2",
-  "description": "STORIS eslint configurations",
+  "description": "STORIS eslint Configurations",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext js,ts --cache && echo \"eslint: no lint errors\"",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STORIS/eslint-config.git"
+    "url": "git+https://github.com/STORIS/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -21,6 +21,10 @@
   ],
   "author": "STORIS",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/STORIS/eslint-config/issues"
+  },
+  "homepage": "https://github.com/STORIS/eslint-config#readme",
   "engines": {
     "node": "^16.0.0"
   },
