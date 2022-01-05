@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 2022-01-05
+### Changed
+- Relocate override of `no-restricted-syntax` rule to shared configuration so that it is enabled for both `node` and `react` configurations ([#17](https://github.com/STORIS/eslint-config/pull/17))
+
 ## [0.0.5] - 2022-01-05
 ### Changed
 - Remove override on `@typescript-eslint/no-unused-vars` to enable it and extend `plugin:react/jsx-runtime` in react configuration ([#15](https://github.com/STORIS/eslint-config/pull/15))
@@ -26,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/storis/eslint-config/compare/0.0.5...HEAD
+[Unreleased]: https://github.com/storis/eslint-config/compare/0.0.6...HEAD
+[0.0.6]: https://github.com/storis/eslint-config/compare/0.0.5...0.0.6
 [0.0.5]: https://github.com/storis/eslint-config/compare/0.0.4...0.0.5
 [0.0.4]: https://github.com/storis/eslint-config/compare/0.0.3...0.0.4
 [0.0.3]: https://github.com/storis/eslint-config/compare/0.0.2...0.0.3
