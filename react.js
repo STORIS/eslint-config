@@ -1,5 +1,11 @@
 module.exports = {
-	extends: ['airbnb', 'airbnb-typescript', 'plugin:jsx-a11y/recommended', './lib/shared'],
+	extends: [
+		'airbnb',
+		'airbnb-typescript',
+		'plugin:react/jsx-runtime',
+		'plugin:jsx-a11y/recommended',
+		'./lib/shared',
+	],
 
 	env: { browser: true },
 
@@ -48,6 +54,9 @@ module.exports = {
 
 		// permit spreading of props
 		'react/jsx-props-no-spreading': 'off',
+
+		// React triggers no-unused-vars rules
+		'react/jsx-uses-react': 'off',
 
 		// typescript is better at prop-types than `prop-types`
 		'react/prop-types': 'off',
