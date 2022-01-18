@@ -34,7 +34,6 @@ module.exports = {
 			files: [
 				'**/*.types.ts',
 				'**/types/*.ts',
-				'**/constants.ts',
 				'**/*.schema.ts',
 				'**/instances/**',
 			],
