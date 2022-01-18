@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.8] - 2022-01-18
+### Changed
+- Enforce named exports in `*.constants` files for react lint rules ([#25](https://github.com/STORIS/eslint-config/pull/25))
+
 ## [0.0.7] - 2022-01-14
 ### Changed
 - Eliminate use of `pathGroups` setting for `eslint-plugin-import` as the behavior without the setting is the same as with it ([#20](https://github.com/STORIS/eslint-config/pull/20))
@@ -34,7 +38,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/storis/eslint-config/compare/0.0.7...HEAD
+[Unreleased]: https://github.com/storis/eslint-config/compare/0.0.8...HEAD
+[0.0.8]: https://github.com/storis/eslint-config/compare/0.0.7...0.0.8
 [0.0.7]: https://github.com/storis/eslint-config/compare/0.0.6...0.0.7
 [0.0.6]: https://github.com/storis/eslint-config/compare/0.0.5...0.0.6
 [0.0.5]: https://github.com/storis/eslint-config/compare/0.0.4...0.0.5
