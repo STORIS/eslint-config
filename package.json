@@ -1,6 +1,6 @@
 {
   "name": "@storis/eslint-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "STORIS eslint Configurations",
   "main": "index.js",
   "scripts": {
