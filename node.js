@@ -31,12 +31,7 @@ module.exports = {
 
 	overrides: [
 		{
-			files: [
-				'**/*.types.ts',
-				'**/types/*.ts',
-				'**/*.schema.ts',
-				'**/instances/**',
-			],
+			files: ['**/*.types.ts', '**/types/*.ts', '**/*.schema.ts', '**/instances/**'],
 			rules: {
 				'import/prefer-default-export': 'off',
 				'import/no-default-export': 'error',
