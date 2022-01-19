@@ -3,7 +3,7 @@ test('should require all eslint configs without error', () => {
 		require('../index');
 	}).not.toThrow();
 	expect(() => {
-		require('../node');
+		require('../nodejs');
 	}).not.toThrow();
 	expect(() => {
 		require('../react');
