@@ -33,6 +33,7 @@
     "node": "^16.0.0"
   },
   "devDependencies": {
+    "@storis/prettier-config": "0.0.2",
     "@storis/tsconfig": "0.0.2",
     "@typescript-eslint/eslint-plugin": "5.10.0",
     "@typescript-eslint/parser": "5.10.0",
@@ -87,5 +88,6 @@
     "eslint-plugin-react-hooks": {
       "optional": true
     }
-  }
+  },
+  "prettier": "@storis/prettier-config"
 }
