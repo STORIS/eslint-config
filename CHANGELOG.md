@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.9] - 2022-01-19
+
+### Breaking Changes
+
+- Eliminate prettier from eslint integration ([#28](https://github.com/STORIS/eslint-config/pull/28))
+- Renamed `node` config as `nodejs` to avoid conflict with script runs ([#28](https://github.com/STORIS/eslint-config/pull/28))
+
+## Changed
+
+- Add precommit hook to run eslint and prettier before commit ([#28](https://github.com/STORIS/eslint-config/pull/28))
+- Use `@storis/tsconfig` for typescript configuration ([#28](https://github.com/STORIS/eslint-config/pull/28))
+- Formatted all files in repo with prettier ([#28](https://github.com/STORIS/eslint-config/pull/28))
+- Updated renovate configuration ([#28](https://github.com/STORIS/eslint-config/pull/28))
+
 ## [0.0.8] - 2022-01-18
 
 ### Changed
@@ -55,7 +69,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/0.0.8...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/0.0.9...HEAD
+[0.0.9]: https://github.com/storis/eslint-config/compare/0.0.8...0.0.9
 [0.0.8]: https://github.com/storis/eslint-config/compare/0.0.7...0.0.8
 [0.0.7]: https://github.com/storis/eslint-config/compare/0.0.6...0.0.7
 [0.0.6]: https://github.com/storis/eslint-config/compare/0.0.5...0.0.6
