@@ -21,7 +21,6 @@ The package relies on the following peer dependencies which differ depending on 
 - `@typescript-eslint/eslint-plugin`
 - `@typescript-eslint/parser`
 - `eslint`
-- `eslint-config-airbnb`
 - `eslint-config-airbnb-typescript`
 - `eslint-config-prettier`
 - `eslint-plugin-import`
@@ -31,10 +30,12 @@ The package relies on the following peer dependencies which differ depending on 
 
 #### Required for NodeJs Config
 
+- `eslint-config-airbnb-base`
 - `eslint-import-resolver-babel-module`
 
 #### Required for React Config
 
+- `eslint-config-airbnb`
 - `eslint-import-resolver-webpack`
 - `eslint-plugin-jsx-a11y`
 - `eslint-plugin-react`
