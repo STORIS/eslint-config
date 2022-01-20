@@ -7,14 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.10] - 2022-01-20
+
+### Breaking
+
+- Add [explicit-module-boundary-types](https://typescript-eslint.io/rules/explicit-module-boundary-types) to the nodejs configuration ([#33](https://github.com/STORIS/eslint-config/pull/33))
+
+### Changed
+
+- Use `@storis/prettier-config` for prettier configurations ([#30](https://github.com/STORIS/eslint-config/pull/30))
+- Add `cjs` and `mjs` extensions to the `.editorconfig` overrides to enforce tabs ([#31](https://github.com/STORIS/eslint-config/pull/31))
+
 ## [0.0.9] - 2022-01-19
 
-### Breaking Changes
+### Breaking
 
 - Eliminate prettier from eslint integration ([#28](https://github.com/STORIS/eslint-config/pull/28))
 - Renamed `node` config as `nodejs` to avoid conflict with script runs ([#28](https://github.com/STORIS/eslint-config/pull/28))
 
-## Changed
+### Changed
 
 - Add precommit hook to run eslint and prettier before commit ([#28](https://github.com/STORIS/eslint-config/pull/28))
 - Use `@storis/tsconfig` for typescript configuration ([#28](https://github.com/STORIS/eslint-config/pull/28))
@@ -69,7 +80,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/0.0.9...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/0.0.10...HEAD
+[0.0.10]: https://github.com/storis/eslint-config/compare/0.0.9...0.0.10
 [0.0.9]: https://github.com/storis/eslint-config/compare/0.0.8...0.0.9
 [0.0.8]: https://github.com/storis/eslint-config/compare/0.0.7...0.0.8
 [0.0.7]: https://github.com/storis/eslint-config/compare/0.0.6...0.0.7
