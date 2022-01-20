@@ -4,9 +4,6 @@ module.exports = {
 	settings: { 'import/resolver': { 'babel-module': { extensions: ['.ts'] } } },
 
 	rules: {
-		// enforce return types on module boundaries
-		'@typescript-eslint/explicit-module-boundary-types': 'error',
-
 		// set up naming convention rules
 		'@typescript-eslint/naming-convention': [
 			'error',
@@ -33,6 +30,14 @@ module.exports = {
 	},
 
 	overrides: [
+		{
+			files: ['**/*.ts'],
+			rules: {
+				// enforce return types on module boundaries
+				'@typescript-eslint/explicit-module-boundary-types': 'error',
+			},
+		},
+
 		{
 			files: ['**/*.types.ts', '**/types/*.ts', '**/*.schema.ts', '**/instances/**'],
 			rules: {
