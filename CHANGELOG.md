@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.11] - 2022-01-20
+
+## Changed
+
+- Fix peer dependencies for `eslint-config-airbnb` and `eslint-config-airbnb-base` to only be needed for the appropriate ruleset ([#36](https://github.com/STORIS/eslint-config/pull/36))
+- Change `explicit-module-boundary-types` so that it is only used for `.ts` files ([#37](https://github.com/STORIS/eslint-config/pull/37))
+
 ## [0.0.10] - 2022-01-20
 
 ### Breaking
@@ -80,7 +87,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/0.0.10...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/0.0.11...HEAD
+[0.0.11]: https://github.com/storis/eslint-config/compare/0.0.10...0.0.11
 [0.0.10]: https://github.com/storis/eslint-config/compare/0.0.9...0.0.10
 [0.0.9]: https://github.com/storis/eslint-config/compare/0.0.8...0.0.9
 [0.0.8]: https://github.com/storis/eslint-config/compare/0.0.7...0.0.8
