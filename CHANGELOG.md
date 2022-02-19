@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2022-02-19
+
+This is flagged the first major release since the package has been working successfully without any issues and switching to this release scheme will allow for easier adherence to semver go forward. There are no breaking changes between this and the previous release.
+
+### Changed
+
+- Update peer dependency range for `eslint-plugin-jest` to include `^26.0.0` ([#41](https://github.com/STORIS/eslint-config/pull/41))
+
 ## [0.0.11] - 2022-01-20
 
 ## Changed
@@ -87,7 +95,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/0.0.11...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/storis/eslint-config/compare/0.0.11...1.0.0
 [0.0.11]: https://github.com/storis/eslint-config/compare/0.0.10...0.0.11
 [0.0.10]: https://github.com/storis/eslint-config/compare/0.0.9...0.0.10
 [0.0.9]: https://github.com/storis/eslint-config/compare/0.0.8...0.0.9
