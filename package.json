@@ -97,6 +97,9 @@
     },
     "eslint-plugin-react-hooks": {
       "optional": true
+    },
+    "eslint-plugin-testing-library": {
+      "optional": true
     }
   },
   "prettier": "@storis/prettier-config"
