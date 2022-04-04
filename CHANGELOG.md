@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2022-04-04
 
+### Breaking
+
 - Enable `eslint-plugin-testing-library` in the React configuration ([#92](https://github.com/STORIS/eslint-config/pull/92)) and ([#94](https://github.com/STORIS/eslint-config/pull/94))
 
 ## [1.0.1] - 2022-02-20
@@ -27,7 +29,7 @@ This is flagged the first major release since the package has been working succe
 
 ## [0.0.11] - 2022-01-20
 
-## Changed
+### Changed
 
 - Fix peer dependencies for `eslint-config-airbnb` and `eslint-config-airbnb-base` to only be needed for the appropriate ruleset ([#36](https://github.com/STORIS/eslint-config/pull/36))
 - Change `explicit-module-boundary-types` so that it is only used for `.ts` files ([#37](https://github.com/STORIS/eslint-config/pull/37))
