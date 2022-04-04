@@ -9,7 +9,7 @@ module.exports = {
 
 	env: { browser: true },
 
-	plugins: ['react-hooks'],
+	plugins: ['react-hooks', 'testing-library'],
 
 	settings: {
 		'import/resolver': {
@@ -88,6 +88,12 @@ module.exports = {
 				'@typescript-eslint/naming-convention': ['error', { selector: 'default', format: null }],
 				camelcase: 'off',
 			},
+		},
+
+		{
+			// apply testing library rules only to test files
+			files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+			extends: ['plugin:testing-library/react'],
 		},
 	],
 };
