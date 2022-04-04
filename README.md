@@ -40,6 +40,7 @@ The package relies on the following peer dependencies which differ depending on 
 - `eslint-plugin-jsx-a11y`
 - `eslint-plugin-react`
 - `eslint-plugin-react-hooks`
+- `eslint-plugin-testing-library`
 
 ### Configuration
 
