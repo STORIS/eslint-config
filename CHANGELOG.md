@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2022-04-04
+
+- Enable `eslint-plugin-testing-library` in the React configuration ([#92](https://github.com/STORIS/eslint-config/pull/92)) and ([#94](https://github.com/STORIS/eslint-config/pull/94))
+
 ## [1.0.1] - 2022-02-20
 
 ### Changed
@@ -101,7 +105,8 @@ This is flagged the first major release since the package has been working succe
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/1.0.1...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/storis/eslint-config/compare/1.0.1...2.0.0
 [1.0.1]: https://github.com/storis/eslint-config/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/storis/eslint-config/compare/0.0.11...1.0.0
 [0.0.11]: https://github.com/storis/eslint-config/compare/0.0.10...0.0.11
