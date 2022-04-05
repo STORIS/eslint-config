@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2022-04-05
+
+### Breaking
+
+- Update `eslint-config-airbnb-typescript` to 17.0.0 which had a breaking change to the supported peer dependency range for `@typescript-eslint`. Due to the change to required peer dependency ranges, this opportunity was taken to also bump every other peer dependency to the latest semver minor version. ([#97](https://github.com/STORIS/eslint-config/pull/97))
+
 ## [2.0.0] - 2022-04-04
 
 ### Breaking
@@ -107,7 +113,8 @@ This is flagged the first major release since the package has been working succe
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/2.0.0...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/3.0.0...HEAD
+[3.0.0]: https://github.com/storis/eslint-config/compare/2.0.0...3.0.0
 [2.0.0]: https://github.com/storis/eslint-config/compare/1.0.1...2.0.0
 [1.0.1]: https://github.com/storis/eslint-config/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/storis/eslint-config/compare/0.0.11...1.0.0
