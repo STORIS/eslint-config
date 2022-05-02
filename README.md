@@ -25,7 +25,6 @@ The package relies on the following peer dependencies which differ depending on 
 - `eslint-config-prettier`
 - `eslint-plugin-import`
 - `eslint-plugin-jest`
-- `jest`
 - `typescript`
 
 #### Required for NodeJs Config
