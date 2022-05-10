@@ -16,7 +16,7 @@ workflows:
           matrix:
             parameters:
               version:
-                - 16.15
-                - 18.0
+                - '16.15'
+                - '18.0'
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
