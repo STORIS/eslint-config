@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/STORIS/eslint-config#readme",
   "engines": {
-    "node": "^16.0.0"
+    "node": "^16.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@storis/prettier-config": "0.0.2",
