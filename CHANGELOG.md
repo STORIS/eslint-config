@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.2.0] - 2022-05-11
+
+- Add support for Node 18 ([#123](https://github.com/STORIS/eslint-config/pull/123))
+
 ## [3.1.0] - 2022-05-02
 
 - Eliminate `jest` as a peer dependency ([#116](https://github.com/STORIS/eslint-config/pull/116))
@@ -117,7 +121,8 @@ This is flagged the first major release since the package has been working succe
 
 - Initial release
 
-[unreleased]: https://github.com/storis/eslint-config/compare/3.1.0...HEAD
+[unreleased]: https://github.com/storis/eslint-config/compare/3.2.0...HEAD
+[3.2.0]: https://github.com/storis/eslint-config/compare/3.1.0...3.2.0
 [3.1.0]: https://github.com/storis/eslint-config/compare/3.0.0...3.1.0
 [3.0.0]: https://github.com/storis/eslint-config/compare/2.0.0...3.0.0
 [2.0.0]: https://github.com/storis/eslint-config/compare/1.0.1...2.0.0
