@@ -33,7 +33,7 @@
     "node": "^16.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@storis/prettier-config": "0.0.2",
+    "@storis/prettier-config": "1.0.0",
     "@storis/tsconfig": "0.0.2",
     "@typescript-eslint/eslint-plugin": "5.24.0",
     "@typescript-eslint/parser": "5.24.0",
