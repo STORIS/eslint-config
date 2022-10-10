@@ -35,8 +35,8 @@
   "devDependencies": {
     "@storis/prettier-config": "1.0.0",
     "@storis/tsconfig": "1.0.0",
-    "@typescript-eslint/eslint-plugin": "5.39.0",
-    "@typescript-eslint/parser": "5.39.0",
+    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@typescript-eslint/parser": "5.40.0",
     "eslint": "8.25.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
